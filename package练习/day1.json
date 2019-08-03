@@ -1,0 +1,24 @@
+{
+	"name":"hello world",
+	"version":"1.0.0",
+	"author":"zwen",
+	"description":"this is a package json",
+	"keywords":["nodejs","javascript","zwen"],
+	"repository":{
+	     "type":"git",
+	     "url":"githup地址"
+	},
+	"license":"版权信息",
+	"engines":{"node":"0.10.x"},
+	"bugs":{"url":"包的bug跟踪主页地址"},
+	"contributors":[{"name":"zli","email":"zli@example.com"}],
+	"scripts":{
+		"start":"node.index.js"
+	 },
+	"dependencies":{
+          "生产依赖"
+	 },
+	 "devDependencies":{
+	 	  "开发依赖"
+	 }
+}
